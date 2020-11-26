@@ -28,7 +28,7 @@
         @catch (NSException *exception) {}
         
         @try {
-            [configuration setValue:@TRUE forKey:@"allowUniversalAccessFromFileURLs"];
+            [configuration.preferences setValue:@TRUE forKey:@"allowUniversalAccessFromFileURLs"];
         }
         @catch (NSException *exception) {}
         
